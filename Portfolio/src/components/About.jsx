@@ -77,7 +77,7 @@ const About = () => {
                     ></path>
                   </svg>
                 </span>
-                <span className="break-words">Name: Samyog Maharjan</span>
+                <span className="break-words">Name: Sarthak Basnet</span>
               </div>
               <div className="flex items-center text-sm sm:text-base">
                 <span className="text-blue-500 mr-2 flex-shrink-0">
@@ -94,7 +94,7 @@ const About = () => {
                     ></path>
                   </svg>
                 </span>
-                <span className="break-all">Email: msamyog37@gmail.com</span>
+                <span className="break-all">Email: sakubasnet123@gmail.com</span>
               </div>
               <div className="flex items-center text-sm sm:text-base">
                 <span className="text-blue-500 mr-2 flex-shrink-0">
@@ -111,9 +111,9 @@ const About = () => {
                     ></path>
                   </svg>
                 </span>
-                <span className="break-words">Location: Kathmandu, Nepal</span>
+                <span className="break-words">Location: Lokanthali, Bhaktapur</span>
               </div>
-              <div className="flex items-center text-sm sm:text-base">
+              {/* <div className="flex items-center text-sm sm:text-base">
                 <span className="text-blue-500 mr-2 flex-shrink-0">
                   <svg
                     className="w-4 h-4 sm:w-5 sm:h-5"
@@ -128,12 +128,12 @@ const About = () => {
                     ></path>
                   </svg>
                 </span>
-                <span>For Jobs: Available</span>
-              </div>
+                {/* <span>For Jobs: Available</span> */}
+              {/* </div> */} 
             </div>
 
             <motion.a
-              href="/cv/Samyog-Maharjan-cv (15).pdf"
+              href="/public/cv/Sarthak Basnet CV.pdf"
               target="_blank"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}

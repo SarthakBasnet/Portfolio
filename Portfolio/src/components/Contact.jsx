@@ -89,8 +89,8 @@ const Contact = () => {
         </svg>
       ),
       title: 'Email',
-      content: 'msamyog37@gmail.com',
-      link:'mailto:msamyog37@gmail.com'
+      content: 'sakubasnet123@gmail.com',
+      link:'mailto:sakubasnet123@gmail.com'
     },
   {
   icon: (
@@ -107,8 +107,8 @@ const Contact = () => {
     </svg>
   ),
   title: 'Instagram',
-  content: '@iam.samyog',
-  link: 'https://www.instagram.com/iam.samyog'
+  content: '@sarthak.903',
+  link: 'https://www.instagram.com/sarthak.903'
 },
     {
       icon: (
@@ -118,7 +118,7 @@ const Contact = () => {
         </svg>
       ),
       title: 'Location',
-      content: 'Kathmandu,Nepal',
+      content: 'Lokanthali,Bhaktapur',
       link: '#'
     },
   ];

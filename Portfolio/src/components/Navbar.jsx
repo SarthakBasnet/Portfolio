@@ -39,7 +39,7 @@ const Navbar = () => {
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-6xl font-bold text-transparent  logosign bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500"
         >
-          Samyog
+          Sarthak
         </motion.div>
 
         {/* Desktop Menu */}

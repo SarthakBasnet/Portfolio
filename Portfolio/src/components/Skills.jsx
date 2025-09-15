@@ -9,8 +9,8 @@ const Skills = () => {
   }, []);
 
   const skills = [
-    { name: 'JavaScript', percentage: 85, color: 'from-yellow-400 to-yellow-600' },
-    { name: 'React', percentage: 90, color: 'from-blue-400 to-blue-600' },
+    { name: 'JavaScript', percentage: 80, color: 'from-yellow-400 to-yellow-600' },
+    { name: 'React', percentage: 75, color: 'from-blue-400 to-blue-600' },
     { name: 'Django', percentage: 90, color: 'from-green-400 to-green-600' },
     { name: 'HTML/CSS', percentage: 95, color: 'from-red-400 to-red-600' },
     { name: 'Tailwind CSS', percentage: 85, color: 'from-teal-400 to-teal-600' },
@@ -19,7 +19,7 @@ const Skills = () => {
 
   const technicalSkills = [
     'JavaScript','Django', 'React', 'Next.js', 'Python', 'SQL', 
-    'Bootstrap', 'Tailwind CSS', 'SASS', 
+    'Bootstrap', 'Tailwind CSS', 
     'Git', 'GitHub', 'Figma'
   ];
 
@@ -69,7 +69,7 @@ const Skills = () => {
             }`}
             style={{ transitionDelay: '400ms' }}
           >
-            <h3 className="text-2xl font-semibold mb-6 text-blue-400">Technologies I Work With</h3>
+            <h3 className="text-2xl font-semibold mb-6 text-blue-400">Technologies currently familar with</h3>
             
             <div className="flex flex-wrap gap-3">
               {technicalSkills.map((tech, index) => (

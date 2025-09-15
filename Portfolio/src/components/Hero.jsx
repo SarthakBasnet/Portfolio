@@ -82,7 +82,7 @@ const Hero = () => {
           py-3 font-bold mb-4 
           text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-blue-500"
       >
-        Samyog Maharjan
+        Sarthak Basnet
       </motion.h1>
 
       <motion.div
