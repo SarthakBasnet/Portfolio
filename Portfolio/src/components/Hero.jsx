@@ -9,7 +9,7 @@ const Hero = () => {
 
   useEffect(() => {
     const options = {
-      strings: ['Software Engineer', 'Tech Enthusiast', 'Problem-Solver'],
+      strings: ['AI Enthausiast', 'Tech Enthusiast', 'Problem-Solver'],
       typeSpeed: 100,
       backSpeed: 50,
       backDelay: 1500,
