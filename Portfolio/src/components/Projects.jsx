@@ -12,93 +12,48 @@ const Projects = () => {
   const projects = [
     {
       id: 1,
-      title: 'E-Commerce Website',
-      category: 'Frontend',
-      image: '/img/shopco.png',
-      description: 'A  e-commerce website frontend made  with React, and Tailwind CSS.',
-      technologies: ['React', 'Tailwind CSS'],
-      link: 'https://shopco-eight-beta.vercel.app/',
-      github: 'https://github.com/Iam-samyog/E-commerceshop'
+      title: 'Skincare routine',
+      image: '/public/img/Skincare.png',
+      description: 'A  skincare routine for acne prone skin(ayurvedic)',
+      technologies: ['HTML'],
+      github: 'https://github.com/SarthakBasnet/Skincare'
     },
     {
       id: 2,
-      title: 'Quickspace Website',
-      category: 'Frontend',
-      image: '/img/quickspace.png',
-      description: 'A commercial website for the solution companies',
-      technologies: ['React','Tailwind CSS'],
-      link: 'https://quickspace-seven.vercel.app/',
-      github: 'https://github.com/Iam-samyog/Quickspace'
+      title: 'Job Finder',
+      image: '/public/img/Finder.png',
+      description: 'A commercial website for finding Jobs',
+      technologies: ['HTML','Bootstrap'],
+      github: 'https://github.com/SarthakBasnet/Job-Finder'
     },
     {
       id: 3,
-      title: 'Informat',
-      category: 'Frontend',
-      image: '/img/Informat.png',
-      description: 'A modern newspaper design with minimalist aesthetics.',
-      technologies: ['React', 'Tailwind CSS','API Integration'],
-      link: 'https://informat-chi.vercel.app/',
-      github: 'https://github.com/Iam-samyog/Informat-Modern-Newspaper-Website'
+      title: 'Room Rentals',
+      image: '/public/img/Room Rentals.png',
+      description: 'A modern solution for finding rooms',
+      technologies: ['HTML', 'Python', 'Django', 'SqLite'],
+      github: 'https://github.com/SarthakBasnet/Room-Rentals1'
     },
     {
       id: 4,
-      title: 'Acenda Travel Website',
-      category: 'Frontend',
-      image: '/img/Acenda.png',
-      description: 'A travel website with booking and itinerary features.',
+      title: 'Hospital Management System',
+      image: '/public/img/Hospital Management System.png',
+      description: 'A software to manage the hospitals',
       
-      technologies: ['React', 'Tailwind CSS'],
-      link: 'https://acenda-five.vercel.app/',
-      github: 'https://github.com/Iam-samyog/Acenda'
+      technologies: ['Python'],
+      github: 'https://github.com/SarthakBasnet/Hospital-Management-Syetem'
     },
    {
       id: 5,
-      title: 'Luminaria',
-      category: 'Django',
-      image: "/img/LuminariaBlog.png",
-      description: 'A complete blog application',
-      technologies: ['HTML', 'Python', 'Django','PostgreSQL'],
-      link: 'https://github.com/Iam-samyog/Luminaria-',
-      github: 'https://github.com/Iam-samyog/Luminaria-'
-    },
-    {
-      id: 6,
-      title: 'FoodieX',
-      category: 'Django',
-      image: '/img/FoodieX.png',
-      description: 'A food receipe finder website with user authentication and receipes.',
-   
-      technologies: ['HTML', 'Python', 'Django','JavaScript'],
-      link: 'https://github.com/Iam-samyog/FoodieX',
-      github: 'https://github.com/Iam-samyog/FoodieX',
-
-    },
-    
-     {
-      id: 7,
-      title: 'Todos',
-      category: 'Django',
-      image: "/img/todo's.png",
-      description: 'A Todos website that has CRUD operation.',
-      technologies: ['HTML', 'Python', 'Django'],
-      link: 'https://github.com/Iam-samyog/Todo-s',
-      github: 'https://github.com/Iam-samyog/Todo-s'
-    },
-    
-     {
-      id: 8,
-      title: 'Quizo',
-      category: 'Django',
-      image: '/img/quizo.png',
-      description: 'A quiz website with user authentication and quiz ',
-      technologies: ['HTML', 'Python', 'Django','JavaScript'],
-      link: 'https://github.com/Iam-samyog/Quizo',
-      github: 'https://github.com/Iam-samyog/Quizo'
+      title: 'Typing Test',
+      image: "/public/img/Typing Test.png",
+      description: 'A simple UI to test your typing speed',
+      technologies: ['HTML', 'JS'],
+      github: 'https://github.com/SarthakBasnet/Typing-test'
     },
   ];
 
-  const categories = ['all', 'Frontend', 'Django'];
-
+  const categories = ['all'];
   const filteredProjects = activeFilter === 'all' 
     ? projects 
     : projects.filter(project => project.category === activeFilter);
@@ -200,7 +155,7 @@ const Projects = () => {
           }`}
         >
           <a
-            href="https://github.com/Iam-samyog?tab=repositories"
+            href="https://github.com/SarthakBasnet?tab=repositories"
             target="_blank"
             rel="noopener noreferrer"
             className="px-8 py-3 bg-gray-700 rounded-full font-medium inline-flex items-center gap-2 hover:bg-gray-600 transition-all duration-300 hover:scale-105 active:scale-95"
